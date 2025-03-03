@@ -51,5 +51,14 @@ public class ViewModes : MonoBehaviour
         ScrollViewMessageBox.verticalNormalizedPosition = 0f;
         Target.interactable=false;
     }
-    
+    public void HomeLcationSet()
+    {
+        messageText.text += "\nHome Location  is set for flying Time " + System.DateTime.Now.ToString("HH:mm, dd MMM yyyy") +
+                     " \nLatitude 40.7128, Longitude -74.0060";
+        messageText.color = Color.green;
+
+        Canvas.ForceUpdateCanvases();
+        ScrollViewMessageBox.verticalNormalizedPosition = 0f;
+        Target.interactable = false;
+    }
 }
