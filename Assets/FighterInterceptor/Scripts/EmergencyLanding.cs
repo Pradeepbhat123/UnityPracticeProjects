@@ -11,7 +11,7 @@ public class EmergencyLanding : MonoBehaviour
 
     public void TriggerEmergencyLanding()
     {
-        Debug.Log("emergency");
+        Debug.Log("emergency2");
         if (cesiumGeoreference == null || airplane == null) return;
 
       
