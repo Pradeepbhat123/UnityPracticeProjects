@@ -35,7 +35,7 @@ public class ViewModes : MonoBehaviour
             case 1:
                 flightCam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = new Vector3(-0.05f,2.2f,9.76f); // Offset for Back View
                 break;
-            case 2: //Top View
+            case 2: //Top View for flight
              
                 flightCam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = new Vector3(0.45f, 16.19f, 9.76f);
                 break;
